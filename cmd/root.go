@@ -9,10 +9,17 @@ import (
 )
 
 var rootCmd = &cobra.Command{
-	Use:   "cli-template",
-	Short: "A brief description of your application",
-	Long: `A longer description that spans multiple lines and likely contains
-examples and usage of using your application.`,
+	Use:   "crypto-scripts",
+	Short: "Outputs ggt, sam and ss with a nice output path",
+	Long: `A small tool to output
+
+- ggt (greatest common divisor)
+- sam (square-and-multiply)
+- ss (shift cipher for english and german texts)
+
+in a nice way with the computing path.
+
+Nice output designed with [PTerm](https://github.com/pterm/pterm).`,
 	// ! This template features automatic releases.
 	// ! When you have set a REPO_ACCESS_TOKEN secret in GitHub, increasing this version will push a new release automatically.
 	Version: "v0.0.1", // <---VERSION---> This comment enables auto-releases on version change!
