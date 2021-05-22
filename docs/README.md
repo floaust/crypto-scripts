@@ -1,79 +1,72 @@
-<h1 align="center">cli-template ✨</h1>
-
-<p align="center">⚗ A template for beautiful, modern, cross-platform compatible CLI tools written with Go!</p>
-
-----
+<h1 align="center">cli-template</h1>
+<p align="center">A brief description of your application</p>
 
 <p align="center">
-<strong><a href="#getting-started">Getting Started</a></strong>
-|
-<strong><a href="https://github.com/pterm/cli-template/wiki/">Wiki</a></strong>
+
+<a style="text-decoration: none" href="https://github.com/floaust/crypto-scripts/releases">
+<img src="https://img.shields.io/github/v/release/floaust/crypto-scripts?style=flat-square" alt="Latest Release">
+</a>
+
+<a style="text-decoration: none" href="https://github.com/floaust/crypto-scripts/releases">
+<img src="https://img.shields.io/github/downloads/floaust/crypto-scripts/total.svg?style=flat-square" alt="Downloads">
+</a>
+
+<a style="text-decoration: none" href="https://github.com/floaust/crypto-scripts/stargazers">
+<img src="https://img.shields.io/github/stars/floaust/crypto-scripts.svg?style=flat-square" alt="Stars">
+</a>
+
+<a style="text-decoration: none" href="https://github.com/floaust/crypto-scripts/fork">
+<img src="https://img.shields.io/github/forks/floaust/crypto-scripts.svg?style=flat-square" alt="Forks">
+</a>
+
+<a style="text-decoration: none" href="https://github.com/floaust/crypto-scripts/issues">
+<img src="https://img.shields.io/github/issues/floaust/crypto-scripts.svg?style=flat-square" alt="Issues">
+</a>
+
+<a style="text-decoration: none" href="https://opensource.org/licenses/MIT">
+<img src="https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square" alt="License: MIT">
+</a>
+
+<br/>
+
+<a style="text-decoration: none" href="https://github.com/floaust/crypto-scripts/releases">
+<img src="https://img.shields.io/badge/platform-windows%20%7C%20macos%20%7C%20linux-informational?style=for-the-badge" alt="Downloads">
+</a>
+
+<br/>
+
 </p>
 
 ----
 
-|This template features|
-|----------------------|
-|[Modern Style 💎](#modern-style)|
-|[Build on top of cobra 💎](#build-on-top-of-cobra)|
-|[Automatic Releases 🚀](#automatic-releases)|
-|[Automatic Website/Docs Generation 🌐](#automatic-website-generation)|
-|[Automatic Deployment 🔝](#automatic-deployment)|
-|[Custom CI-System 🤖](#custom-ci-system)|
-|[Custom Libraries 🔬](#custom-libraries)|
-|[Easy installation for your users (one command) 🐥](#install-ready)|
+<p align="center">
+<strong><a href="https://floaust.github.io/crypto-scripts/#/installation">Installation</a></strong>
+|
+<strong><a href="https://floaust.github.io/crypto-scripts/#/docs">Documentation</a></strong>
+|
+<strong><a href="https://floaust.github.io/crypto-scripts/#/CONTRIBUTING">Contributing</a></strong>
+</p>
 
-## Getting Started
+----
 
-You can find an in-depth tutorial in the Wiki here: [Getting Started](https://github.com/pterm/cli-template/wiki/Getting-Started)
+A longer description that spans multiple lines and likely contains
+examples and usage of using your application.
 
-1. Click on <kbd>Use this template</kbd> on the top of the page.
-1. Wait for your repository to initialize.
-1. Create a personal access token and add it as a repository secret (`REPO_ACCESS_TOKEN`). [(GitHub Docs)](https://docs.github.com/es/actions/reference/encrypted-secrets#creating-encrypted-secrets-for-a-repository)
-1. Clone and open your repository to change the name and description of your CLI in `./cmd/root.go`.
-1. After you have set up your programm you have to create the very first release manually (`v0.0.1`) to initialize the CI-System.
-    1. Don't worry if your CLI tool doesn't do anything yet. It's common that the `v0.0.1` release is just the plain project setup.
-1. The setup is done and you can start to code!
+## Installation
 
-This template uses [spf13/cobra](https://github.com/spf13/cobra) as CLI framework.  
-You can find their documentation here: [cobra.dev](https://cobra.dev/)
+Run the following command in a terminal and you're ready to go!
 
-## Features
+**Windows**
+```powershell
+iwr -useb instl.sh/floaust/crypto-scripts/windows | iex
+```
 
-### Modern Style
+**macOS**
+```bash
+curl -fsSL instl.sh/floaust/crypto-scripts/macos | bash
+```
 
-> [PTerm Documentation Link](https://pterm.sh/)
-
-This template uses [PTerm](https://github.com/pterm/pterm) to provide colorful, cross-platform compatible output by default!  
-By using PTerm, you can output progressbars, colored text, charts and many more.  
-
-### Build on top of cobra
-> [Cobra Documentation Link](https://cobra.dev/)
-
-Cobra is a popular CLI framework for Go.
-
-### Automatic Releases
-
-> [Documentation link](https://github.com/pterm/cli-template/wiki/Automatic-Releases)
-
-Our custom made CI system will detect when you change the version of your CLI and will **automatically create a new GitHub release for you**.
-You'll never have to deploy your CLI tools manually again!
-
-### Automatic Website Generation
-
-> [Documentation link](https://github.com/pterm/cli-template/wiki/Automatic-Website-Generation)
-
-Everytime you push a new commit, a GitHub Pages website is created/updated, which documents your whole CLI tool automatically.
-You don't need to document anything by yourself.
-
-You only need to enable GitHub Pages by going to your repository settings. (set to `/docs`)
-
-### Automatic Deployment
-
-### Custom CI-System
-
-### Custom Libraries
-
-We use libraries, which were specially made for this template, to give you the best user experience without a ton of code.
-
-### Install Ready
+**Linux**
+```bash
+curl -fsSL instl.sh/floaust/crypto-scripts/linux | bash
+```

@@ -11,7 +11,7 @@
 ### Windows Command
 
 ```powershell
-iwr -useb instl.sh/pterm/cli-template/windows | iex
+iwr -useb instl.sh/floaust/crypto-scripts/windows | iex
 ```
 
 #### ** Linux **
@@ -19,7 +19,7 @@ iwr -useb instl.sh/pterm/cli-template/windows | iex
 ### Linux Command
 
 ```bash
-curl -fsSL instl.sh/pterm/cli-template/linux | bash
+curl -fsSL instl.sh/floaust/crypto-scripts/linux | bash
 ```
 
 #### ** macOS **
@@ -27,7 +27,7 @@ curl -fsSL instl.sh/pterm/cli-template/linux | bash
 ### macOS Command
 
 ```bash
-curl -fsSL instl.sh/pterm/cli-template/macos | bash
+curl -fsSL instl.sh/floaust/crypto-scripts/macos | bash
 ```
 
 #### ** Compile from source **
@@ -41,7 +41,7 @@ Compiling cli-template from source has the benefit that the build command is the
 It is not recommended to install Go only for the installation of cli-template.
 
 ```command
-go install github.com/pterm/cli-template@latest
+go install github.com/floaust/crypto-scripts@latest
 ```
 
 <!-- tabs:end -->
