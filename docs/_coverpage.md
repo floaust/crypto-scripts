@@ -1,9 +1,16 @@
-# cli-template
+# crypto-scripts
 
-> A brief description of your application
+> Outputs ggt, sam and ss with a nice output path
 
-A longer description that spans multiple lines and likely contains
-examples and usage of using your application.
+A small tool to output
+
+- ggt (greatest common divisor)
+- sam (square-and-multiply)
+- ss (shift cipher for english and german texts)
+
+in a nice way with the computing path.
+
+Nice output designed with [PTerm](https://github.com/pterm/pterm).
 
 [Installation](installation.md)
 [Docs](docs.md)

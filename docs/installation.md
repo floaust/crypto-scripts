@@ -1,7 +1,7 @@
-# Quick Start - Install cli-template
+# Quick Start - Install crypto-scripts
 
 > [!TIP]
-> cli-template is installable via [instl.sh](https://instl.sh).\
+> crypto-scripts is installable via [instl.sh](https://instl.sh).\
 > You just have to run the following command and you're ready to go!
 
 <!-- tabs:start -->
@@ -35,10 +35,10 @@ curl -fsSL instl.sh/floaust/crypto-scripts/macos | bash
 ### Compile from source with Golang
 
 ?> **NOTICE**
-To compile cli-template from source, you have to have [Go](https://golang.org/) installed.
+To compile crypto-scripts from source, you have to have [Go](https://golang.org/) installed.
 
-Compiling cli-template from source has the benefit that the build command is the same on every platform.\
-It is not recommended to install Go only for the installation of cli-template.
+Compiling crypto-scripts from source has the benefit that the build command is the same on every platform.\
+It is not recommended to install Go only for the installation of crypto-scripts.
 
 ```command
 go install github.com/floaust/crypto-scripts@latest

@@ -1,15 +1,22 @@
-# cli-template
+# crypto-scripts
 
 ## Usage
-> A brief description of your application
+> Outputs ggt, sam and ss with a nice output path
 
-cli-template [global options] command [options] [arguments...]
+crypto-scripts [global options] command [options] [arguments...]
 
 ## Description
 
 ```
-A longer description that spans multiple lines and likely contains
-examples and usage of using your application.
+A small tool to output
+
+- ggt (greatest common divisor)
+- sam (square-and-multiply)
+- ss (shift cipher for english and german texts)
+
+in a nice way with the computing path.
+
+Nice output designed with [PTerm](https://github.com/pterm/pterm).
 ```
 
 ## Flags
@@ -21,15 +28,15 @@ examples and usage of using your application.
 ## Commands
 |Command|Usage|
 |-------|-----|
-|`cli-template hello`|A brief description of your command|
-|`cli-template help`|Help about any command|
+|`crypto-scripts hello`|A brief description of your command|
+|`crypto-scripts help`|Help about any command|
 # ... hello
-`cli-template hello`
+`crypto-scripts hello`
 
 ## Usage
 > A brief description of your command
 
-cli-template [global options] command [options] [arguments...]
+crypto-scripts [global options] command [options] [arguments...]
 
 ## Description
 
@@ -50,14 +57,14 @@ to quickly create a Cobra application.
 ## Commands
 |Command|Usage|
 |-------|-----|
-|`cli-template hello test`|A brief description of your command|
+|`crypto-scripts hello test`|A brief description of your command|
 # ... hello test
-`cli-template hello test`
+`crypto-scripts hello test`
 
 ## Usage
 > A brief description of your command
 
-cli-template [global options] command [options] [arguments...]
+crypto-scripts [global options] command [options] [arguments...]
 
 ## Description
 
@@ -70,18 +77,18 @@ This application is a tool to generate the needed files
 to quickly create a Cobra application.
 ```
 # ... help
-`cli-template help`
+`crypto-scripts help`
 
 ## Usage
 > Help about any command
 
-cli-template [global options] command [options] [arguments...]
+crypto-scripts [global options] command [options] [arguments...]
 
 ## Description
 
 ```
 Help provides help for any command in the application.
-Simply type cli-template help [path to command] for full details.
+Simply type crypto-scripts help [path to command] for full details.
 ```
 
 

@@ -1,5 +1,5 @@
-<h1 align="center">cli-template</h1>
-<p align="center">A brief description of your application</p>
+<h1 align="center">crypto-scripts</h1>
+<p align="center">Outputs ggt, sam and ss with a nice output path</p>
 
 <p align="center">
 
@@ -49,8 +49,15 @@
 
 ----
 
-A longer description that spans multiple lines and likely contains
-examples and usage of using your application.
+A small tool to output
+
+- ggt (greatest common divisor)
+- sam (square-and-multiply)
+- ss (shift cipher for english and german texts)
+
+in a nice way with the computing path.
+
+Nice output designed with [PTerm](https://github.com/pterm/pterm).
 
 ## Installation
 
