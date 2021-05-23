@@ -28,54 +28,8 @@ Nice output designed with [PTerm](https://github.com/pterm/pterm).
 ## Commands
 |Command|Usage|
 |-------|-----|
-|`crypto-scripts hello`|A brief description of your command|
 |`crypto-scripts help`|Help about any command|
-# ... hello
-`crypto-scripts hello`
-
-## Usage
-> A brief description of your command
-
-crypto-scripts [global options] command [options] [arguments...]
-
-## Description
-
-```
-A longer description that spans multiple lines and likely contains examples
-and usage of using your command. For example:
-
-Cobra is a CLI library for Go that empowers applications.
-This application is a tool to generate the needed files
-to quickly create a Cobra application.
-```
-
-## Flags
-|Flag|Usage|
-|----|-----|
-|`-n, --name string`|Your name|
-
-## Commands
-|Command|Usage|
-|-------|-----|
-|`crypto-scripts hello test`|A brief description of your command|
-# ... hello test
-`crypto-scripts hello test`
-
-## Usage
-> A brief description of your command
-
-crypto-scripts [global options] command [options] [arguments...]
-
-## Description
-
-```
-A longer description that spans multiple lines and likely contains examples
-and usage of using your command. For example:
-
-Cobra is a CLI library for Go that empowers applications.
-This application is a tool to generate the needed files
-to quickly create a Cobra application.
-```
+|`crypto-scripts sam`|square-and-multiply|
 # ... help
 `crypto-scripts help`
 
@@ -90,7 +44,27 @@ crypto-scripts [global options] command [options] [arguments...]
 Help provides help for any command in the application.
 Simply type crypto-scripts help [path to command] for full details.
 ```
+# ... sam
+`crypto-scripts sam`
+
+## Usage
+> square-and-multiply
+
+crypto-scripts [global options] command [options] [arguments...]
+
+## Description
+
+```
+Calculates the square-and-multiply algorithm.
+```
+
+## Flags
+|Flag|Usage|
+|----|-----|
+|`-b, --base int`|base|
+|`-e, --exp int`|exponent|
+|`-m, --mod int`|modulo|
 
 
 ---
-> **Documentation automatically generated with [PTerm](https://github.com/pterm/cli-template) on 22 May 2021**
+> **Documentation automatically generated with [PTerm](https://github.com/pterm/cli-template) on 23 May 2021**
