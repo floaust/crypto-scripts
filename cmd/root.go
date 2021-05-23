@@ -22,7 +22,7 @@ in a nice way with the computing path.
 Nice output designed with [PTerm](https://github.com/pterm/pterm).`,
 	// ! This template features automatic releases.
 	// ! When you have set a REPO_ACCESS_TOKEN secret in GitHub, increasing this version will push a new release automatically.
-	Version: "v0.0.1", // <---VERSION---> This comment enables auto-releases on version change!
+	Version: "v0.0.2", // <---VERSION---> This comment enables auto-releases on version change!
 	// Uncomment the following line if your bare application
 	// has an action associated with it:
 	// 	Run: func(cmd *cobra.Command, args []string) {   },
