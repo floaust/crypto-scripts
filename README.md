@@ -51,7 +51,7 @@
 
 A small tool to output
 
-- gcd (greatest common divisor)
+- ggt (greatest common divisor)
 - sam (square-and-multiply)
 - ss (shift cipher for english and german texts)
 
