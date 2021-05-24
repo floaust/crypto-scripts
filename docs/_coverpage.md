@@ -1,10 +1,10 @@
 # crypto-scripts
 
-> Outputs ggt, sam and ss with a nice output path
+> Outputs gcd, sam and ss with a nice output path
 
 A small tool to output
 
-- ggt (greatest common divisor)
+- gcd (greatest common divisor)
 - sam (square-and-multiply)
 - ss (shift cipher for english and german texts)
 

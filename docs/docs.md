@@ -1,7 +1,7 @@
 # crypto-scripts
 
 ## Usage
-> Outputs ggt, sam and ss with a nice output path
+> Outputs gcd, sam and ss with a nice output path
 
 crypto-scripts [global options] command [options] [arguments...]
 
@@ -10,7 +10,7 @@ crypto-scripts [global options] command [options] [arguments...]
 ```
 A small tool to output
 
-- ggt (greatest common divisor)
+- gcd (greatest common divisor)
 - sam (square-and-multiply)
 - ss (shift cipher for english and german texts)
 
