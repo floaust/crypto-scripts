@@ -10,10 +10,10 @@ import (
 
 var rootCmd = &cobra.Command{
 	Use:   "crypto-scripts",
-	Short: "Outputs ggt, sam and ss with a nice output path",
+	Short: "Outputs gcd, sam and ss with a nice output path",
 	Long: `A small tool to output
 
-- ggt (greatest common divisor)
+- gcd (greatest common divisor)
 - sam (square-and-multiply)
 - ss (shift cipher for english and german texts)
 
